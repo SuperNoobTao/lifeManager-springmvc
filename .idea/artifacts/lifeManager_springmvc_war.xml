@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="lifeManager-springmvc:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="lifeManager-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="lifeManager-springmvc:war exploded" />
+    </root>
+  </artifact>
+</component>
