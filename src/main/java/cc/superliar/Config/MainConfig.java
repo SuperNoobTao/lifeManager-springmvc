@@ -24,10 +24,7 @@ public class MainConfig {
     //商站宝测试公众号 AES_KEY
     protected static final String AES_KEY = "";
 
-    //商站宝微信支付商户号
-    protected static final String PARTNER_ID = "";
-    //商站宝微信支付平台商户API密钥(https://pay.weixin.qq.com/index.php/core/account/api_cert)
-    protected static final String PARTNER_KEY = "";
+
 
     @Bean
     public WxMpConfigStorage wxMpConfigStorage() {
@@ -36,8 +33,6 @@ public class MainConfig {
         configStorage.setSecret(MainConfig.APP_SECRET);
         configStorage.setToken(MainConfig.TOKEN);
         configStorage.setAesKey(MainConfig.AES_KEY);
-        configStorage.setPartnerId(MainConfig.PARTNER_ID);
-        configStorage.setPartnerKey(MainConfig.PARTNER_KEY);
         return configStorage;
     }
 
